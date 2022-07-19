@@ -1,2 +1,40 @@
 en:
-  sample_app: "Sample App"
+  hello: "Hello world"
+  english: "English"
+  vietnamese: "Vietnamese"
+  layouts:
+    application:
+      base_title: "Program teach how to using Rails"
+  shared:
+    header:
+      title: "Sample App"
+      home: "Home"
+      help: "Help"
+      contact: "Contact"
+    footer:
+      info: "Ruby on Rails Tutorial"
+      news: "News"
+      about: "About"
+      contact: "Contact"
+      name_author: "Michael Hartl"
+  static_pages:
+    home:
+      title: "Home Page"
+      home_section: "This is the homepage for the"
+      ruby_and_tutorial: "Ruby on Rails Tutorial"
+      sample_app: "sample application."
+      welcome: "Welcome to the Sample App"
+      sign_up: "Sign up now!"
+    contact:
+      title: "Contact"
+      contact_section: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      sample_app: "contact page"
+    help:
+      title: "Help"
+      help_section: "Get help on the Ruby on Rails Tutorial at the"
+      sample_app: "Ruby on Rails Tutorial book"
+  users:
+    new:
+      title: "Sign up"
+      sign_up_section: "This will be a signup page for new users."
+      sample_app: "Ruby on Rails Tutorial book"
