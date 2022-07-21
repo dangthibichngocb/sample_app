@@ -1,2 +1,39 @@
 vi:
-  sample_app: "Ứng dụng mẫu"
+  hello: "Chào thế giới"
+  english: "Tiếng Anh"
+  vietnamese: "Tiếng Việt"
+  layouts:
+    application:
+      base_title: "Ứng dụng mẫu hướng dẫn Ruby On Rails"
+  shared:
+    header:
+      title: "Sample App"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      contact: "Liên hệ"
+    footer:
+      info: "Hướng dẫn Ruby on Rails"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      name_author: "Michael Hartl"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      home_section: "Đây là trang chủ của"
+      sample_app: "Sample App"
+      welcome: "Chào mừng đến Sample App"
+      sign_up: "Đăng ký ngay"
+    contact:
+      title: "Liên hệ"
+      contact_section: "Để có thêm thông tin, liên hệ tới"
+      sample_app: "Trang web tutorial"
+    help:
+      title: "Trợ giúp"
+      help_section: "Trợ giúp Hướng dẫn về Rails"
+      sample_app: "Sách Hướng dẫn Ruby on Rails"
+  users:
+    new:
+      title: "Đăng ký"
+      sign_up_section: "Form đăng ký"
+      sample_app: "Sách Hướng dẫn Ruby on Rails TutorialBook"
