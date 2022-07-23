@@ -4,13 +4,17 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id])
+    @user = User.find_by(id: params[:id])
+    return if @user
+
+    flash[:danger] = t ".alert_not_found"
+    redirect_to signup_path
   end
 
   def create
-    @user = User.new[params: user]
+    @user = User.new(user_params)
     if @user.save
-      flash[:success] = "Welcome to the Sample App!"
+      flash[:success] = t ".alert_success"
       redirect_to @user
     else
       render :new
@@ -18,7 +22,6 @@ class UsersController < ApplicationController
   end
 
   def user_params
-    params.require(:user).permit(:name, :email,
-                                 :password, :password_confirmation)
+    params.require(:user).permit(User::USER_ATTR)
   end
 end
