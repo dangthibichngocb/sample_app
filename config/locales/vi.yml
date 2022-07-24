@@ -1,7 +1,5 @@
 vi:
   hello: "Chào thế giới"
-  english: "Tiếng Anh"
-  vietnamese: "Tiếng Việt"
   layouts:
     application:
       base_title: "Ứng dụng mẫu hướng dẫn Ruby On Rails"
@@ -10,6 +8,13 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       contact: "Liên hệ"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      log_out: "Đăng xuất"
+      log_in: "Đăng nhập"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
     footer:
       info: "Hướng dẫn Ruby on Rails"
       about: "Về chúng tôi"
@@ -52,3 +57,12 @@ vi:
     error_messages:
       form: "Thông tin điền có"
       error: "lỗi"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      new_user: "Bạn là người dùng mới?"
+      sign_up_now: "Hãy đăng ký ngay!"
+    create:
+      invalid_email_password: "Email, mật khẩu không hợp lệ!"
