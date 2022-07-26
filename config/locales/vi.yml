@@ -65,5 +65,7 @@ vi:
       password: "Mật khẩu"
       new_user: "Bạn là người dùng mới?"
       sign_up_now: "Hãy đăng ký ngay!"
+      remember_me: "Nhớ tài khoản"
+      remember_on: "Ghi nhớ tài khoản trên máy tính này"
     create:
       invalid_email_password: "Email, mật khẩu không hợp lệ!"
