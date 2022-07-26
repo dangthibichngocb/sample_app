@@ -9,3 +9,9 @@ help:
 home:
   tutorial_rails: "https://www.railstutorial.org/"
   tutorial_ruby_on_rails: "https://rubyonrails.org/"
+user:
+  name_min: 10
+  email_min: 20
+  email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
+  email_max: 250
+  password_min: 6
