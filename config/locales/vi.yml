@@ -5,7 +5,6 @@ vi:
   layouts:
     application:
       base_title: "Ứng dụng mẫu hướng dẫn Ruby On Rails"
-  shared:
     header:
       title: "Sample App"
       home: "Trang chủ"
@@ -37,3 +36,20 @@ vi:
       title: "Đăng ký"
       sign_up_section: "Form đăng ký"
       sample_app: "Sách Hướng dẫn Ruby on Rails TutorialBook"
+      header: "Biểu mẫu Đăng ký "
+      create_user: "Tạo tài khoản của tôi"
+      full_name: "Họ và tên"
+      email: "Email"
+      password: "Mật khẩu"
+      pass_confirm: "Xác nhận mật khẩu"
+    create:
+      title: "Tài khoản"
+      alert_success: "Chào mừng bạn đến với Ứng dụng Mẫu"
+      alert_err_create: "Đăng ký thất bại"
+    show:
+      title: "Chi tiết"
+      alert_not_found: "Không thể tìm thấy người dùng"
+  shared:
+    error_messages:
+      form: "Thông tin điền có"
+      error: "lỗi"
