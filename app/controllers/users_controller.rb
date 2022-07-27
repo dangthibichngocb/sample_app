@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find_by id: params[:id]
+    @user = User.find_by params[:id]
     return if @user
 
     flash[:danger] = t ".alert_not_found"
@@ -17,7 +17,7 @@ class UsersController < ApplicationController
       flash[:success] = t ".alert_success"
       redirect_to @user
     else
-      flash[:danger] = t ".alert_err_create"
+      flash.now[:danger] = t ".alert_err_create"
       render :new
     end
   end
