@@ -1,7 +1,5 @@
 en:
   hello: "Hello world"
-  english: "English"
-  vietnamese: "Vietnamese"
   layouts:
     application:
       base_title: "Program teach how to using Rails"
@@ -10,6 +8,13 @@ en:
       home: "Home"
       help: "Help"
       contact: "Contact"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
+      log_out: "Log out"
+      log_in: "Log in"
+      english: "English"
+      vietnamese: "Vietnamese"
     footer:
       info: "Ruby on Rails Tutorial"
       news: "News"
@@ -54,3 +59,12 @@ en:
     error_messages:
       form: "The form contains"
       error: "error"
+  sessions:
+    new:
+      title: "Log in"
+      email: "Email"
+      password: "Password"
+      new_user: "New user ?"
+      sign_up_now: "Sign up now!"
+    create:
+      invalid_email_password: "Invalid email password combination!"
