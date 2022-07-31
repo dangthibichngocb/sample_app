@@ -11,13 +11,13 @@ gem "mysql2", "~> 0.5"
 gem "net-imap", require: false
 gem "net-pop", require: false
 gem "net-smtp", require: false
+gem "pagy"
 gem "puma", "~> 5.0"
 gem "rails", "~> 6.1.6"
 gem "rails-i18n"
 gem "sass-rails", ">= 6"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 5.0"
-
 group :development, :test do
   gem "byebug", platforms: %i(mri mingw x64_mingw)
 end
