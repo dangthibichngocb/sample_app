@@ -54,6 +54,7 @@ en:
       title: "Account"
       alert_success: "Welcome to the Sample App"
       alert_err_create: "Registration failed"
+      alert_mail_activate: "Please check your email to activate your account."
     show:
       title: "Detail"
       alert_not_found: "Can't find user"
@@ -97,3 +98,14 @@ en:
     nav:
       next: "Next"
       prev: "Prev"
+  user_mailer:
+    account_activation: 
+      title: "Account Activation"
+      hi: "Hi"
+      message: "Welcome to the Sample App! Click on the link below to activate your account"
+      activate_mail: "Activate mail"
+    acount_act: "Account activation"
+  account_activations:
+    edit:
+      account_activated: "Account activated"
+      invalid_activation: "Invalid activation link"

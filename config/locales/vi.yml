@@ -52,6 +52,7 @@ vi:
       title: "Tài khoản"
       alert_success: "Chào mừng bạn đến với Ứng dụng Mẫu"
       alert_err_create: "Đăng ký thất bại"
+      alert_mail_activate: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     show:
       title: "Chi tiết"
       alert_not_found: "Không thể tìm thấy người dùng"
@@ -94,3 +95,14 @@ vi:
     nav:
       next: "Tiếp theo"
       prev: "Trước đó"
+  user_mailer:
+    account_activation: 
+      title: "Kích hoạt tài khoản"
+      hi: "Xin chào"
+      message: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn"
+      activate_mail: "Kích hoạt thư"
+    acount_act: "Kích hoạt tài khoản"
+  account_activations:
+    edit:
+      account_activated: "Tài khoản đã được kích hoạt"
+      invalid_activation: "Liên kết kích hoạt không hợp lệ"
