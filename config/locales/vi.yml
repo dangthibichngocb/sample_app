@@ -89,6 +89,7 @@ vi:
       sign_up_now: "Hãy đăng ký ngay!"
       remember_me: "Nhớ tài khoản"
       remember_on: "Ghi nhớ tài khoản trên máy tính này"
+      forgot_password: "Quên mật khẩu"
     create:
       invalid_email_password: "Email, mật khẩu không hợp lệ!"
   pagy:
@@ -102,7 +103,33 @@ vi:
       message: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn"
       activate_mail: "Kích hoạt thư"
     acount_act: "Kích hoạt tài khoản"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      click_link: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      expire_link: "Liên kết này sẽ hết hạn sau hai giờ."
+      ignore_email: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình,
+        vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
   account_activations:
     edit:
       account_activated: "Tài khoản đã được kích hoạt"
       invalid_activation: "Liên kết kích hoạt không hợp lệ"
+  password_resets:
+    edit :
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      confirm_pass: "Xác nhận mật khẩu"
+      update_pass: "Cập nhật mật khẩu"
+      user_not_valid: "Người dùng không hợp lệ"
+    new:
+      title: "Quên mật khẩu"
+      email: "Email"
+      submit: "Gửi"
+    create:
+      email_reset: "Email được gửi kèm theo hướng dẫn đặt trước mật khẩu"
+      email_not_found: "Không tìm thấy địa chỉ email"
+    update:
+      cant_empty: "Không được để trống"
+      reset_success: "Mật khẩu đã được đặt lại"
+    get_user:
+      not_found: "Không tìm thấy người dùng"
+    pass_reset: "Đặt lại mật khẩu đã hết hạn"
