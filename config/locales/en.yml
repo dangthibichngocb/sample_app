@@ -15,6 +15,7 @@ en:
       log_in: "Log in"
       english: "English"
       vietnamese: "Vietnamese"
+      users : "Users"
     footer:
       info: "Ruby on Rails Tutorial"
       news: "News"
@@ -38,16 +39,17 @@ en:
       help_section: "Get help on the Ruby on Rails Tutorial at the"
       sample_app: "Ruby on Rails Tutorial book"
   users:
+    form:
+      full_name: "Full Name"
+      email: "Email"
+      password: "Password"
+      pass_confirm: "Password confirmation"
     new:
       title: "Sign up"
       sign_up_section: "This will be a signup page for new users."
       sample_app: "Ruby on Rails Tutorial book"
       header: "Register Form"
       create_user: "Create my account"
-      full_name: "Full Name"
-      email: "Email"
-      password: "Password"
-      pass_confirm: "Password confirmation"
     create:
       title: "Account"
       alert_success: "Welcome to the Sample App"
@@ -55,6 +57,27 @@ en:
     show:
       title: "Detail"
       alert_not_found: "Can't find user"
+    edit:
+      title: "Edit user"
+      edit_user: "Save changes"
+      change: "Change"
+    update:
+      alert_success_update: "Profile updated"
+      alert_err_update: "Update profile failed"
+    index:
+      title: "All users"
+    logged_in_user:
+      login: "Please log in"
+    correct_user:
+      not_found: "User not found"
+    destroy:
+      alert_success_delete: "User deleted"
+      alert_err_delete: "Delete failed"
+    find_user:
+      alert_not_found: "User not found"
+    user:
+      delete: "Delete"
+      sure_delete: "You sure?"
   shared:
     error_messages:
       form: "The form contains"
@@ -70,3 +93,7 @@ en:
       remember_on: "Remember me on this computer"
     create:
       invalid_email_password: "Invalid email password combination!"
+  pagy:
+    nav:
+      next: "Next"
+      prev: "Prev"

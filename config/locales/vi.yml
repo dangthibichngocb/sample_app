@@ -37,16 +37,17 @@ vi:
       help_section: "Trợ giúp Hướng dẫn về Rails"
       sample_app: "Sách Hướng dẫn Ruby on Rails"
   users:
+    form:
+      full_name: "Họ và tên"
+      email: "Email"
+      password: "Mật khẩu"
+      pass_confirm: "Xác nhận mật khẩu"
     new:
       title: "Đăng ký"
       sign_up_section: "Form đăng ký"
       sample_app: "Sách Hướng dẫn Ruby on Rails TutorialBook"
       header: "Biểu mẫu Đăng ký "
       create_user: "Tạo tài khoản của tôi"
-      full_name: "Họ và tên"
-      email: "Email"
-      password: "Mật khẩu"
-      pass_confirm: "Xác nhận mật khẩu"
     create:
       title: "Tài khoản"
       alert_success: "Chào mừng bạn đến với Ứng dụng Mẫu"
@@ -54,6 +55,26 @@ vi:
     show:
       title: "Chi tiết"
       alert_not_found: "Không thể tìm thấy người dùng"
+    edit:
+      title: "Cập nhật người dùng"
+      edit_user: "Lưu thay đổi"
+      change: "Thay đổi"
+    update:
+      alert_success_update: "Hồ sơ cá nhân đã cập nhật"
+      update:
+      alert_success_update: "Profile updated"
+      alert_err_update: "Cập nhật hồ sơ không thành công"
+    index:
+      title: "Tất cả người sử dụng"
+    logged_in_user:
+      login: "Vui lòng hãy đăng nhập"
+    correct_user:
+      not_found: "Không tìm thấy người dùng"
+    destroy:
+      alert_success_delete: "Người dùng đã bị xóa"
+      alert_err_delete: "Xóa không thành công"
+    find_user:
+      alert_not_found: "Không tìm thấy người dùng"
   shared:
     error_messages:
       form: "Thông tin điền có"
@@ -69,3 +90,7 @@ vi:
       remember_on: "Ghi nhớ tài khoản trên máy tính này"
     create:
       invalid_email_password: "Email, mật khẩu không hợp lệ!"
+  pagy:
+    nav:
+      next: "Tiếp theo"
+      prev: "Trước đó"
