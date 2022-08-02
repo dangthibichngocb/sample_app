@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :find_user, except: %i(new create index)
-  before_action :logged_in_user, except: %i(index edit update destroy)
+  before_action :logged_in_user, except: %i(show new create)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
 
@@ -18,9 +18,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t ".alert_success"
-      redirect_to @user
+      @user.send_mail_activate
+      flash[:info] = t ".alert_mail_activate"
+      redirect_to login_url
     else
       flash.now[:danger] = t ".alert_err_create"
       render :new
