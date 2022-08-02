@@ -21,3 +21,4 @@ user:
   gravatar_user_size: 50
   gravatar_email: "https://gravatar.com/emails"
   items: 25
+  time_expired: 2
