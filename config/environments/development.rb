@@ -83,4 +83,5 @@ Rails.application.configure do
     authentication: :cram_md5,
     enable_starttls_auto: true
   }
+  config.middleware.use I18n::JS::Middleware
 end

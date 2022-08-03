@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
+
   attr_accessor :remember_token, :activation_token, :reset_token
 
   USER_ATTR = %i(name email password password_confirmation).freeze
@@ -74,6 +76,9 @@ class User < ApplicationRecord
     reset_sent_at < Settings.user.time_expired.hours.ago
   end
 
+  def feed
+    microposts.newest
+  end
   private
 
   def downcase_email

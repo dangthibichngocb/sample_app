@@ -9,7 +9,9 @@ class UsersController < ApplicationController
       items: Settings.user.index.items
   end
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy @user.microposts.newest
+  end
 
   def new
     @user = User.new
