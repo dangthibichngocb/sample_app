@@ -30,6 +30,7 @@ en:
       sample_app: "sample application."
       welcome: "Welcome to the Sample App"
       sign_up: "Sign up now!"
+      feed: "Micropost Feed"
     contact:
       title: "Contact"
       contact_section: "Contact the Ruby on Rails Tutorial about the sample app at the"
@@ -58,6 +59,7 @@ en:
     show:
       title: "Detail"
       alert_not_found: "Can't find user"
+      micropost: "Micropost"
     edit:
       title: "Edit user"
       edit_user: "Save changes"
@@ -83,6 +85,14 @@ en:
     error_messages:
       form: "The form contains"
       error: "error"
+    micropost_form:
+      compose_new: "Compose new micropost..."
+      post: "Post"
+      alert_err: "Maximum file size is 5MB. Please choose a smaller file."
+      content: "Content"
+    user_info:
+      view_profile: "View my profile"
+      micropost: "Micropost"
   sessions:
     new:
       title: "Log in"
@@ -137,3 +147,22 @@ en:
     get_user:
       not_found: "User not found"
     pass_reset: "Password reset has expired"
+  microposts:
+    attributes:
+      image:
+        image_type_err: "Must be a valid image format"
+        image_size_err: "Should be less than 5MB"
+    micropost:
+      delete: "Delete"
+      sure: "You sure?"
+      post: "Posted"
+      ago: "ago"
+    create:
+      create_alert_success: "Micropost created!"
+      create_alert_err: "Create failed"
+    destroy:
+      del_alert_success: "Micropost deleted"
+      del_alert_err: "Delete failed"
+    not_found: "Not found"
+  please_log_in: "Please log in"
+  alert_err: "Maximum file size is 5MB. Please choose a smaller file."

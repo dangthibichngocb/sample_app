@@ -161,7 +161,7 @@ aside {
 
 /* forms */
 input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
+  border: 1px solid $gray;
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
@@ -209,7 +209,7 @@ aside {
 
 /* forms */
 input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
+  border: 1px solid $gray;
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
@@ -218,6 +218,7 @@ input, textarea, select, .uneditable-input {
 input {
   height: auto !important;
 }
+
 .checkbox {
   margin-bottom: 10px;
   margin-top: 10px;
@@ -227,6 +228,7 @@ input {
     margin-left: 20px;
   }
  }
+
 #session_remember_me {
   margin-left: 0;
   width: auto;
@@ -240,7 +242,8 @@ input {
     font-weight: normal;
     margin-left: 20px;
   }
- }
+}
+
 #session_remember_me {
   margin-left: 0;
   width: auto;
@@ -254,5 +257,59 @@ input {
     overflow: auto;
     padding: 10px 0;
     border-bottom: 1px solid $silver;
+  }
+}
+
+/* microposts */
+.microposts {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 10px 0;
+    border-top: 1px solid $border-white;
+    clear: both;
+  }
+
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+
+  .content {
+    display: block;
+    margin-left: 60px;
+
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+
+  .timestamp {
+    color: $silver;
+    display: block;
+    margin-left: 60px;
+  }
+
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+span.image {
+  margin-top: 10px;
+
+  input {
+    border: 0;
   }
 }
