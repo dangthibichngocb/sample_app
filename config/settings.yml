@@ -30,3 +30,4 @@ micropost:
 image_accept: "image/jpeg,image/gif,image/png"
 image_size: 5
 gravatar_size_info: 50
+item_follow: 30

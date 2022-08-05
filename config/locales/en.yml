@@ -59,7 +59,7 @@ en:
     show:
       title: "Detail"
       alert_not_found: "Can't find user"
-      micropost: "Micropost"
+      microposts: "Microposts"
     edit:
       title: "Edit user"
       edit_user: "Save changes"
@@ -81,6 +81,13 @@ en:
     user:
       delete: "Delete"
       sure_delete: "You sure?"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      micropost: "Micropost"
+      view_profile: "View my profile"
   shared:
     error_messages:
       form: "The form contains"
@@ -93,6 +100,9 @@ en:
     user_info:
       view_profile: "View my profile"
       micropost: "Micropost"
+    stats:
+      following: "Following"
+      followers: "Followers"
   sessions:
     new:
       title: "Log in"
@@ -166,3 +176,13 @@ en:
     not_found: "Not found"
   please_log_in: "Please log in"
   alert_err: "Maximum file size is 5MB. Please choose a smaller file."
+  relationships:
+    danger_follow: "Fail to follow"
+    danger_unfollow: "Fail to unfollow"
+  alert_not_found: "Not found user"
+  following:
+    index:
+      following: "following"
+  followers:
+    index:
+      followers: "followers"
